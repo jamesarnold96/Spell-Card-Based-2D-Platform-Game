@@ -17,6 +17,6 @@ public class FireballCard : Card {
 			Debug.Log("NULLLLLLLL");
 		}
 		prefab.AddComponent(typeof(DestroyOnCollide));
-		ProjectileSpell.Fire(prefab, GetPlayerTransform(), 10 , getFacing());
+		ProjectileSpell.Fire(prefab, GetPlayerTransform(), 10);
 	}
 }
